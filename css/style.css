@@ -2,3 +2,206 @@
     margin: 0;
     padding: 0;
 }
+body{
+width: 100%;
+height: 100%;
+background-color: black ;
+  
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    
+}
+/*  --------------- INICIO HEADER-------------------*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.friends img{
+    border-radius: 100%;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 13px 10px rgba(24, 24, 24, 0.5);
+}
+.friends img{
+    width: 60px;
+}
+.logo img{
+    width: 140px;
+}
+.icon .fa-bars{
+    font-size: 2em;
+    color: white;
+}
+.menu #navegar{
+    position: absolute;
+    top: 80px;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    right: 0;
+    color: white;
+    display: none;
+    margin-bottom: 90px;
+}
+#navegar a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    margin: 10px;
+}
+/*  ---------------FIM STYLE HEADER-------------------*/
+
+/* ----------------- INICIO MAIN ---------------------------*/
+.banner{
+    margin-top: 50px;
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.banner .fa-play{
+    position: absolute;
+    top: 210px;
+    width: 100%;
+    height: 100%;
+    font-size: 4em;
+    color: purple;
+    text-align: center;
+    background-position: center;
+}
+
+/* ------------------------ INICIO SECTION NOTICIAS ----------------*/
+.info{
+    width: 100%;
+height: 100%;
+background-image: url(../img/Desktop.jpg);
+background-size: 100%;
+}
+.info .container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 40%;
+}
+.card img{
+    width: 100px;
+}
+.card h2{
+    font-size: 0.9em;
+}
+.card p{
+    margin: 10px;
+    font-size: 0.7em;
+}
+/* ------------------------ FIM SECTION NOTICIAS ----------------*/
+
+/* ------------------------ INICIO SECTION STREAM ----------------*/
+.stream{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    color: white;
+    background-image: url(../img/stream.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.stream h2{
+    text-align: center;
+}
+.ctn{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.you{
+    width: 30%;
+    height: 150px;
+    margin: 10px;
+}
+.streamer{
+    width: 100%;
+    height: 75%;
+    border-radius: 100%;
+}
+.streamer img{
+    width: 100%;
+    border-radius: 100%;
+}
+.gamer{
+width: 100%;
+height: 100%;
+
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.gamer p{
+    font-size: 0.8em;
+
+}
+.ao_vivo{
+    width: 10%;
+    height: 7%;
+    background-color: red;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+/* ------------------------ FIM SECTION STREAM ----------------*/
+
+/* ------------------------ INICIO SECTION EQUIPE ----------------*/
+
+.equipe{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+background-image: url(../img/Desktop.jpg);
+background-size: 100%;
+}
+.equipe .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  .equipe .container h2{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.equipe .container p{
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+.m1{
+    margin-top: 15px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.m1 img{
+    width: 100%;
+}
+
+/* ------------------------ FIM SECTION EQUIPE ----------------*/
